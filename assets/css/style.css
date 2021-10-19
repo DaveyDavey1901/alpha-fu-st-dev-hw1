@@ -7,6 +7,7 @@
 body {
   background-color: #d9dcd6;
   font-size: 16px; /*making sure default value is set*/
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 /****************/
 /*Header Section*/
@@ -33,7 +34,6 @@ body {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
 
@@ -75,7 +75,6 @@ a {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
 }
@@ -113,7 +112,6 @@ a {
   float: right;
   width: 20%;
   height: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
 }
 
