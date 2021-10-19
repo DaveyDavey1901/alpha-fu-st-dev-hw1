@@ -6,6 +6,7 @@
 
 body {
   background-color: #d9dcd6;
+  font-size: 16px; /*making sure default value is set*/
 }
 /****************/
 /*Header Section*/
@@ -23,6 +24,7 @@ body {
   font-size: 48px;
 }
 
+/* changes the colour of the seo part of Horiseo to make it stand out*/
 .header h1 .seo {
   color: #d9dcd6;
 }
@@ -35,13 +37,10 @@ body {
   font-size: 20px;
 }
 
-.header nav ul {
-  list-style-type: none;
-}
-
 .header nav ul li {
   display: inline-block;
   margin-left: 25px;
+  list-style-type: none;
 }
 
 a {
@@ -49,10 +48,9 @@ a {
   text-decoration: none;
 }
 
-p {
-  font-size: 16px;
-}
-
+/********************/
+/*Hero Section Image*/
+/********************/
 .hero {
   height: 800px;
   width: 100%;
@@ -60,6 +58,39 @@ p {
   background-image: url("../images/digital-marketing-meeting.jpg");
   background-size: cover;
   background-position: center;
+}
+
+/**********************/
+/*Main Section Content*/
+/**********************/
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+  max-height: 200px;
+}
+
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
 .float-left {
@@ -70,12 +101,6 @@ p {
 .float-right {
   float: right;
   margin-left: 25px;
-}
-
-.content {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
 }
 
 .benefits {
@@ -137,60 +162,6 @@ p {
   max-width: 150px;
 }
 
-.search-engine-optimization {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.social-media-marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.search-engine-optimization img {
-  max-height: 200px;
-}
-
-.online-reputation-management img {
-  max-height: 200px;
-}
-
-.social-media-marketing img {
-  max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
 .footer {
   padding: 30px;
   clear: both;
@@ -199,6 +170,6 @@ p {
   text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
   font-size: 20px;
 }
