@@ -21,7 +21,7 @@ CSS
    as well as some notes for some of the code.
 2. consolidated the css as much as i could do.
 3. removed items that were irrelivant or not needed as they were doubled up.
-4. set the font size in the body and removed it from <p> as it was the 16px which is the browser default size.
+4. set the font size in the body and removed it from the p element as it was 16px which is the browser default size.
    having it in the body means its easier to change later if we wanted to adjust it  
    to make it easier t work out rems and ems.
 
